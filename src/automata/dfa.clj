@@ -1,4 +1,4 @@
-(ns dfa.core
+(ns automata.dfa
   (:gen-class)
   (:require [clojure.string :as str]))
 

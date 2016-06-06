@@ -1,6 +1,6 @@
-(ns dfa.core-test
+(ns automata.dfa-test
   (:require [clojure.test :refer :all]
-            [dfa.core :refer :all]))
+            [automata.dfa :refer :all]))
 
 (def even-number-of-zero-dfa (partial dfa-evaluator (hash-map "a" (hash-map "0" "b" "1" "a") "b" (hash-map "0" "a" "1" "b"))
                                       "a" #{"a"})
