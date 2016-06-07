@@ -25,8 +25,8 @@
       <file leaf-file-name="nfa_test.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/automata/nfa_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="600">
+              <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -74,8 +74,8 @@
         <option value="$PROJECT_DIR$/src/dfa/core.clj" />
         <option value="$PROJECT_DIR$/src/automata/dfa.clj" />
         <option value="$PROJECT_DIR$/test/automata/dfa_test.clj" />
-        <option value="$PROJECT_DIR$/test/automata/nfa_test.clj" />
         <option value="$PROJECT_DIR$/src/automata/nfa.clj" />
+        <option value="$PROJECT_DIR$/test/automata/nfa_test.clj" />
       </list>
     </option>
   </component>
@@ -1008,12 +1008,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1464867134079</updated>
-      <workItem from="1464867137549" duration="26957000" />
+      <workItem from="1464867137549" duration="27129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26957000" />
+    <option name="totallyTimeSpent" value="27129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
@@ -1157,8 +1157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/automata/nfa_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="600">
+          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
           <folding />
         </state>
       </provider>

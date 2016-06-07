@@ -17,25 +17,25 @@
   (testing "should give false for 01"
     (is (= (nfa-ends-with-101 "01") false))))
 
-;(def nfa-divisibility-of-2-and-3 (partial nfa-evaluator
-;                                          (hash-map
-;                                            "1" (hash-map "epsilon" ["2" "4"])
-;                                            "2" (hash-map "0" ["3"] "1" ["3"])
-;                                            "3" (hash-map "0" ["2"] "1" ["2"])
-;                                            "4" (hash-map "0" ["5"] "1" ["5"])
-;                                            "5" (hash-map "epsilon" ["Intermediate1"])
-;                                            "Intermediate1" (hash-map "0" ["Intermediate2"] "1" ["Intermediate2"])
-;                                            "Intermediate2" (hash-map "epsilon" ["6"])
-;                                            "6" (hash-map "0" ["4"] "1" ["4"])
-;                                            )
-;                                          "1" #{"2" "4"})
-;  )
+(def nfa-divisibility-of-2-and-3 (partial nfa-evaluator
+                                          (hash-map
+                                            "1" (hash-map "epsilon" ["2" "4"])
+                                            "2" (hash-map "0" ["3"] "1" ["3"])
+                                            "3" (hash-map "0" ["2"] "1" ["2"])
+                                            "4" (hash-map "0" ["5"] "1" ["5"])
+                                            "5" (hash-map "epsilon" ["Intermediate1"])
+                                            "Intermediate1" (hash-map "0" ["Intermediate2"] "1" ["Intermediate2"])
+                                            "Intermediate2" (hash-map "epsilon" ["6"])
+                                            "6" (hash-map "0" ["4"] "1" ["4"])
+                                            )
+                                          "1" #{"2" "4"})
+  )
 
-;(deftest nfa_should_give_true_for_10
-;  (testing "should give false for 10"
-;    (is (= (nfa-divisibility-of-2-and-3 "10")) true)))
-;
-;
-;(deftest nfa_should_give_true_for_10
-;  (testing "should give false for 10"
-;    (is (= (nfa-divisibility-of-2-and-3 "01")) true)))
+(deftest nfa_should_give_true_for_10
+  (testing "should give false for 10"
+    (is (= (nfa-divisibility-of-2-and-3 "10") true))))
+
+
+(deftest nfa_should_give_true_for_10
+  (testing "should give false for 10"
+    (is (= (nfa-divisibility-of-2-and-3 "01") false))))
