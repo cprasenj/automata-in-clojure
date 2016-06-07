@@ -8,8 +8,8 @@
 
 (deftest dfa_should_return_true_for_00
   (testing "should give true for 00"
-    (is (= (even-number-of-zero-dfa "00")) true)))
+    (is (= (even-number-of-zero-dfa "00") true))))
 
 (deftest dfa_should_return_false_for_01
   (testing "should give false for 01"
-    (is (= (even-number-of-zero-dfa "01")) false)))
+    (is (= (even-number-of-zero-dfa "01") false))))

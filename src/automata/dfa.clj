@@ -6,4 +6,3 @@
   (contains? final-states (reduce (fn [last-state current-charecter]
                                     (get-in delta [last-state current-charecter])) q0 (str/split input-string #"")))
   )
-
